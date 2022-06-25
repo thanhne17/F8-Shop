@@ -27,3 +27,44 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* modal */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(1px);
+}
+
+.modal__body {
+    background: var(--white-color);
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+}
+
+.btn {
+    font-size: 1.7rem;
+    padding: 5px 15px;
+    border: none;
+    display: inline-block;
+    background: var(--white-color);
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.btn--primary {
+    background-color: #ee4d2d;
+    color: var(--white-color);
+}
