@@ -17,6 +17,7 @@
 .header__navbar--item {
     margin: 0 8px;
     position: relative;
+    user-select: none;
 }
 
 
